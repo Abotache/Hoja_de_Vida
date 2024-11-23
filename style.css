@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+/* Encabezado con foto y nombre */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #22476f;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.header img {
+    border-radius: 80%;
+    width: 180px;
+    height: 160px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.header .info {
+    text-align: left;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #17324f;
+    margin-bottom: 10px;
+    
+}
+
+.header p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.header .social-links a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 1.2em;
+    color: #0a488a;
+    transition: color 0.3s;
+}
+
+.header .social-links a:hover {
+    color: #0056b3;
+}
+
+/* Sección de Descripción de Perfil */
+.profile-description {
+    font-size: 1.2em;
+    color: #666;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Sección de información */
+.section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    background-color: #27486c;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+.section-content {
+    padding: 15px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+    background-color: #f9f9fb;
+    margin: 5px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+li::before {
+    content: "• ";
+    color: #204b79;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 30px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
